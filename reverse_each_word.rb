@@ -1,4 +1,4 @@
-def reverse_each_word(word)
+def reverse(word)
   array = word.split(' ')
   return array.collect.reverse.join( ' ')
 end 
